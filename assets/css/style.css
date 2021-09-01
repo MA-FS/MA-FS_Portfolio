@@ -37,7 +37,7 @@ header {
   padding: 15px 10px 15px 10px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--dark);
@@ -49,14 +49,14 @@ header h1 {
   color: var(--light);
   padding: 5px 1% 5px 6%;
   margin: 0;
-  font-size: calc(30px + 1.5vw);
+  font-size: calc(30px + 1.5vmax);
   line-height: 1;
 }
 
 header img {
   max-width: 100%;
-  height: 8vmax;
-  width: 8vmax;
+  height: calc(150px + 2.5vmax);
+  width: calc(150px + 2.5vmax);
 }
 
 nav {
@@ -231,6 +231,11 @@ footer {
     padding: 5px;
     margin-bottom: 10px;
   }
+  
+  header img {
+    height: calc(85px + 0.5vmax);
+    width: calc(85px + 0.5vmax);
+  }
 
   header nav {
     justify-content: center;
@@ -256,7 +261,14 @@ footer {
     display: none;
   }
 
+  header img {
+    height: calc(75px + 0.5vmax);
+    width: calc(75px + 0.5vmax);
+  }
+
   nav {
     flex-direction: column;
   }
+
+
 }
