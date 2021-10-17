@@ -10,6 +10,7 @@
   <link rel="shortcut icon" type="image/jpg" href="./assets/images/avatar.png"/>
   <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
 </head>
 
 <body>
@@ -23,6 +24,7 @@
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact Me</a>
+      <a href="./assets/files/MA-FS Resume.pdf">Resume</a>
     </nav>
   </header>
 
@@ -66,30 +68,31 @@
         </a>
 
         <!-- Following links will be entered when projects are built out-->  
-        <a href="#" class="flex-item defi-dashboard">
+        <a class="flex-item password-generator">
           <div>
-            <h3>DeFi Dashboard</h3>
+            <h3>Password Generator</h3>
             <span></span>
           </div>
         </a>
-        
-        <a href="#" class="flex-item portfolio-builder">
+              
+        <a class="flex-item weather-dashboard">
           <div>
-            <h3>Portfolio Builder</h3>
-            <span></span>
-          </div>
-        </a>
-
-        <a href="#" class="flex-item crypto-screener">
-          <div>
-            <h3>Crypto Screener</h3>
+            <h3>Weather Dashboard</h3>
             <span></span>
           </div>
         </a>
 
-        <a href="#" class="flex-item personal-api">
+        <a class="flex-item coding-quiz">
           <div>
-            <h3>API Integrator</h3>
+            <h3>Coding Quiz</h3>
+            <span></span>
+          </div>
+        </a>
+
+        <a class="flex-item crypto-tracker">
+          <div>
+            <h3>Cryptocurrency Tracker</h3>
+            <h3>(Group Project 1)</h3>
             <span></span>
           </div>
         </a>
@@ -103,7 +106,13 @@
         <ul>
             <li>Git</li>
             <li>HTML</li>
-            <li>CSS</li>              
+            <li>Responsive Web Design</li>              
+            <li>Advanced CSS</li>              
+            <li>Bootstrap</li>              
+            <li>jQuery</li>              
+            <li>JavaScript</li>              
+            <li>API’s (Web/3rd Party, Server Side)</li>              
+            <li>NodeJS</li>              
         </ul>
       </section>
 
@@ -114,6 +123,8 @@
         <address>
           <a href="mailto:ma.fullstack@outlook.com"><img src="assets/images/email.png" alt="Mailto Icon"></a>
           <a href="https://github.com/MA-FS"><img src="assets/images/github.png" alt="GitHub Icon"></a>
+          <a href="#"><img src="assets/images/li.png" alt="LinkedIn Icon"></a>
+          
         </address>
       </div>
     </section>
@@ -122,6 +133,13 @@
   <!-- Footer -->
   <footer></footer>
 
+  <div id="dialog-confirm" title="Where to?">
+    <p>Would you like to visit the deployed application or the GitHub repository?</p>
+  </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script src="./assets/js/index.js"></script>
 
 </html>

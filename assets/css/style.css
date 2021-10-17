@@ -203,20 +203,20 @@ footer {
   background-image: url(../images/scratch.png);
 }
 
-.defi-dashboard {
-  background-image: url(../images/defi.jpg);
+.password-generator {
+  background-image: url(../images/password_result.png);
 }
 
-.portfolio-builder {
-  background-image: url(../images/portfolio.jfif);
+.weather-dashboard {
+  background-image: url(../images/weather_dashboard_complete.png);
 }
 
-.crypto-screener {
-  background-image: url(../images/crypto.jpg);
+.coding-quiz {
+  background-image: url(../images/coding_quiz_complete.png);
 }
 
-.personal-api {
-  background-image: url(../images/api.jpg);
+.crypto-tracker {
+  background-image: url(../images/crypto_tracker.png);
 }
 
 @media screen and (max-width: 980px) {
