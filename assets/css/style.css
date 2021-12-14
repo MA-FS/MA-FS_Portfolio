@@ -4,16 +4,16 @@
 
 /* Colour Styling Variables */
 :root {
-  --primary: #E1E1E1;
-  --secondary: #1B1B1B;
+  --primary: #e1e1e1;
+  --secondary: #1b1b1b;
   --dark: #000000;
-  --light: #FFFFFF;
+  --light: #ffffff;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   color: var(--primary);
   background-color: var(--secondary);
   line-height: 1.5;
@@ -162,7 +162,7 @@ footer {
   background-size: cover;
   transition: all 0.5s;
   font-size: 0.9rem;
-  box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.89);
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.89);
 }
 
 /* Featured item */
@@ -173,7 +173,8 @@ footer {
 
 .flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
-  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(19, 18, 18, 0.151), 3px 3px 0px rgba(206,89,55,0);
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(19, 18, 18, 0.151), 3px 3px 0px rgba(206, 89, 55, 0);
   transform: translate(0px, -8px);
 }
 
@@ -219,6 +220,10 @@ footer {
   background-image: url(../images/crypto_tracker.png);
 }
 
+.password-manager {
+  background-image: url(../images/password_manager.png);
+}
+
 @media screen and (max-width: 980px) {
   header {
     padding: 10px 0 10px 0;
@@ -230,13 +235,13 @@ footer {
     height: calc(85px + 0.5vmax);
     width: calc(85px + 0.5vmax);
   }
-  
+
   header h1 {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
   }
-  
+
   header nav {
     justify-content: center;
   }
@@ -246,7 +251,7 @@ footer {
   header {
     flex-direction: column;
   }
-  
+
   header h1 {
     display: none;
   }
@@ -259,7 +264,7 @@ footer {
   nav {
     flex-direction: column;
   }
-  
+
   /* Return featured item to be consistent */
   .flex-item,
   .flex-item:first-child {
